@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 main{
     height: 100vh;
@@ -36,5 +37,9 @@ footer{
 .in{
     border-radius: 5px;
     width: 100%;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
