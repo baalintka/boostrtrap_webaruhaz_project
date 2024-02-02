@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 main{
     height: 100vh;
 }
@@ -8,17 +11,30 @@ header{
 }
 .grid{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
 }
-article{
-    margin: 10px;
+article,aside{
+    margin: 5px;
     padding: 5px;
 }
 
   
 .slider{
-    width: 190px;
+    width: 100%;
 }  
 .bold{
     font-weight: bold;
   }
+footer{
+    text-align: center;
+  }
+.asidelem{
+    border: solid 1px black;
+    margin: 3px;
+    padding: 3px;
+}
+.in{
+    border-radius: 5px;
+    width: 100%;
+}
+
