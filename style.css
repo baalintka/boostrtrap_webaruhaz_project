@@ -86,4 +86,10 @@ button{
     border-radius:50px;
     cursor: pointer;
   }
+.asidelem p{
+    font-size: 14px;
+}
+.szov{
+    font-size: 14px;
+}
 
