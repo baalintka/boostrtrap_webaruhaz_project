@@ -39,7 +39,51 @@ footer{
     width: 100%;
 }
 .grid2{
+    font-size: 14px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.card-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card-header{
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+button{
+    background-color: green;
+    color: yellow;
+}
+.meretgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.meretgrid p{
+    border: solid black 1px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+}
+.slider {
+    -webkit-appearance: none;
+    height: 5px;
+    background: #d3d3d3;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 19px;
+    height: 19px;
+    background:blue;
+    border-radius:50px;
+    cursor: pointer;
+  }
 
