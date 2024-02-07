@@ -1,72 +1,4 @@
-*{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-main{
-    height: 100vh;
-}
-header{
-    height: 60px;
-    margin: 10px;
-    padding: 5px;
-}
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-}
-article,aside{
-    margin: 5px;
-    padding: 5px;
-}
 
-  
-.slider{
-    width: 100%;
-}  
-.bold{
-    font-weight: bold;
-  }
-footer{
-    text-align: center;
-  }
-.asidelem{
-    border: solid 1px black;
-    margin: 3px;
-    padding: 3px;
-}
-.in{
-    border-radius: 5px;
-    width: 100%;
-}
-.grid2{
-    font-size: 14px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.card-footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.card-header{
-    font-size: 16px;
-    color: green;
-    font-weight: bold;
-}
-button{
-    background-color: green;
-    color: yellow;
-}
-.meretgrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-.meretgrid p{
-    border: solid black 1px;
-    padding: 0;
-    margin: 2px;
-    text-align: center;
-    font-weight: bolder;
-}
 .slider {
     -webkit-appearance: none;
     height: 5px;
@@ -86,10 +18,4 @@ button{
     border-radius:50px;
     cursor: pointer;
   }
-.asidelem p{
-    font-size: 14px;
-}
-.szov{
-    font-size: 14px;
-}
 
